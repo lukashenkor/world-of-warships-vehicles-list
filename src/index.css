@@ -1,10 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0f2032;
+  color: #fff;
+  background-image: url('./assets/images/background-image.jpeg');
+  background-repeat: repeat-y;
+}
+
+body:has(.vehicle-selected) {
+  overflow: hidden;
 }
 
 code {
